@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import FlashCard from './components/FlashCard'
+// import Form from './components/Form'
 
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = { favoriteNumber: 70 }
+    this.state = { favoriteNumber: 'red' }
   }
   render() {
     return (
